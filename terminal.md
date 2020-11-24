@@ -1,6 +1,12 @@
 #### List cmd when open Ubuntu 
+Turn Off Wifi
+> nmcli radio wifi off
+
 Change MAC
 > sudo macchanger -r wlp3s0
+
+Turn On Wifi 
+> nmcli radio wifi on
 
 Open Chorme 
 > google-chrome
@@ -19,3 +25,10 @@ Stop Mysql
 
 Open Xampp
 > sudo /opt/lampp/manager-linux-x64.run
+
+Delete history file 
+> history -c 
+
+
+Echo PATH
+> echo $PATH
